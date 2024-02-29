@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desafío 18 | Nicolás Bobb</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <header class="header__section">
+            <span class="header__logo">Cinevana</span>
+            <div class="header__container">
+                <a class="header__item" onclick="goBack()"
+                    ><i class="fas fa-arrow-left"></i> Volver</a
+                >
+                <a class="header__item" onclick="goForward()"
+                    >Avanzar <i class="fas fa-arrow-right"></i
+                ></a>
+            </div>
+            <div class="header__container">
+                <a class="header__item" onclick="onLoadTemplate('home')"
+                    >Listado de películas</a
+                >
+                <a class="header__item" onclick="onLoadTemplate('addFilm')"
+                    >Agregar película</a
+                >
+            </div>
+        </header>
+        <section class="main__section">
+            <main></main>
+        </section>
+        <footer class="footer__section">
+            <p class="footer__title">Cinevana</p>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>

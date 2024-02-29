@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Fredoka", sans-serif;
+}
+
+.header__section,
+.footer__section {
+    background-color: #080f28;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.header__logo,
+.footer__title {
+    color: white;
+    padding: 10px 0;
+}
+
+.header__container {
+    width: 80%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__item {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.header__item:hover {
+    background-color: #101e4e;
+}
+
+.main__section,
+.error__section {
+    background-color: #101e4e;
+}
+
+.search__section,
+.add__section,
+.film__section,
+.error__container {
+    width: 96%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.search__section,
+.add__section {
+    max-width: 500px;
+}
+
+.search__div {
+    position: relative;
+}
+
+.search__input,
+.add__input {
+    background-color: #0b122b;
+    border-radius: 50px;
+    border: 1px solid #25315f;
+    padding: 10px;
+    width: 87%;
+    margin: 10px 0;
+    color: white;
+}
+
+input:focus-visible {
+    outline: none;
+    background-color: #101e4e;
+}
+
+.search__input::placeholder,
+.add__input::placeholder {
+    color: #8da0bc;
+    font-family: "Fredoka", sans-serif;
+}
+
+.search__button {
+    background-color: #101e4e;
+    font-family: "Fredoka", sans-serif;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #25315f;
+    top: 9px;
+    right: 3%;
+}
+
+.search__button:hover {
+    background-color: #25315f;
+}
+
+.add__title,
+.film__title {
+    color: white;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.add__input {
+    margin-bottom: 10px;
+}
+
+.add__button {
+    font-family: "Fredoka", sans-serif;
+    background-color: #007aff;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0.623);
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #080f28;
+    transition: 0.2s;
+}
+
+.add__button:hover {
+    background-color: #0369d9;
+}
+
+.add__button:active {
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
+.film__section {
+    max-width: 800px;
+}
+
+.film__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.film__item {
+    background-color: #0b122b;
+    color: white;
+    width: 155px;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.film__name {
+    font-weight: 400;
+}
+
+.film__year,
+.film__description {
+    font-weight: 300;
+}
+
+.film__description {
+    font-size: 14px;
+}
+
+.error__section {
+    padding: 10px 0;
+}
+
+.fa-face-sad-cry {
+    font-size: 120px;
+    color: white;
+}
+
+.error__title {
+    font-size: 30px;
+    color: white;
+}
